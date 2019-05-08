@@ -1,5 +1,11 @@
-<ul>
-  <% @bookmarks.each do |bookmark| %>
-    <li><%= bookmark %></li>
-  <% end %>
-</ul>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <ul>
+        <% @bookmarks.each do |bookmark| %>
+        <li><%= bookmark %></li>
+      <% end %>
+    </ul>
+</body>

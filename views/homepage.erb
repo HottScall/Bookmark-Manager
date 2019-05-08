@@ -1,8 +1,16 @@
-'Bookmark Manager'
-<form action="/add" method="post">
-<label for="add_bookmark">
-   Add your website
-<input type="text" name="add_bookmark">
-</label>
-<input type="submit" name="add" value="add">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="title">Bookmark Manager</h1>
+    <h2>A home for all your favoutie websites</h2>
+    <form action="/add" method="post">
+    <label for="add_bookmark">
+        Add your favoruite website:
+     <input class="add_button"type="text" name="add_bookmark">
+    </label>
+    <input type="submit" name="add" value="add">
+</body>
+
 </form>
